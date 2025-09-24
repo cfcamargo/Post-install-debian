@@ -138,11 +138,12 @@ Instala e habilita o **Flathub** e adiciona os seguintes apps:
 - Se você não usa MX Master, pode pular a instalação.
 - Basta comentar a linha no final do script:
 
-# run_step install_logiops_and_config
-
 ```bash
-## Pular qualquer etapa
+# run_step install_logiops_and_config
  ```
+
+## Pular qualquer etapa
+
  
 Qualquer função pode ser comentada em RUN ORDER. Exemplos:
 
