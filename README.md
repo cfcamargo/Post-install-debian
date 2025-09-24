@@ -140,16 +140,20 @@ Instala e habilita o **Flathub** e adiciona os seguintes apps:
 
 # run_step install_logiops_and_config
 
+```bash
 ## Pular qualquer etapa
-
+ ```
+ 
 Qualquer função pode ser comentada em RUN ORDER. Exemplos:
 
+```bash
 # run_step install_flatpak_apps # não instalar os Flatpaks
 
 # run_step install_browsers_editors # não instalar Chrome/Brave/VSCode
 
 # run_step install_pyenv_and_latest_python # não configurar Python/pyenv
-
+ ```
+ 
 ## ⚡ Como usar
 
 1. Clone ou copie o script `pos-install.sh`.
